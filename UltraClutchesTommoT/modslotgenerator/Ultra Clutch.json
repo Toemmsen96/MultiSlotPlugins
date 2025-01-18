@@ -1,0 +1,17 @@
+{
+    "information":{
+        "authors":"TommoT",
+        "name":"Ultra Clutches"
+    },
+	"version": 1.0,
+	"slotType": "[MODSLOT]",
+    "mainEngine": {
+        "clutchStiffness":0.5,
+        "clutchFreePlay":0.2,
+        "lockSpringCoef":0.8,
+        "lockDampRatio":0.05,
+        "warningTemp":9800,
+        "maxSafeClutchTemp":9900,
+        "maxClutchTemp":10000
+}
+}

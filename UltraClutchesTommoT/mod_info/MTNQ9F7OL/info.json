@@ -1,0 +1,39 @@
+{
+    "attachments": [
+        {
+            "data_filename": "1151819.png",
+            "original_filename": "upload_2024-7-21_22-30-55.png",
+            "thumb_filename": "thumbs\/1151819.jpg"
+        }
+    ],
+    "resource_id": 31601,
+    "current_version_id": 56213,
+    "download_count": 0,
+    "resource_version_id": 56213,
+    "version_string": "1.0",
+    "last_update": 1721593889,
+    "rating_avg": 0,
+    "rating_count": 0,
+    "rating_sum": 0,
+    "resource_category_id": 7,
+    "resource_date": 1721593889,
+    "review_count": 0,
+    "tag_line": "adds the ability to make clutches hold a lot more",
+    "update_count": 0,
+    "path": "MTNQ9F7OL\/56213\/",
+    "filename": "UltraClutchesTommoT.zip",
+    "title": "[MultiSlot Plugin] Ultra Clutches",
+    "user_id": 215596,
+    "username": "TommoT",
+    "tagid": "MTNQ9F7OL",
+    "message": "[B]This is a plugin to the MultiSlot \/ General ModSlot Generator, download that first for this to work:[\/B]\n[URL]https:\/\/www.beamng.com\/resources\/general-modslot-generator-multimod.31265\/[\/URL]\n\nWhen selected in the MultiSlot Base, makes clutches a lot more durable and able to hold more power.\n(Currently only works with clutches for manual transmissions)\n[ATTACH]1151819[\/ATTACH]",
+    "category_title": "",
+    "prefix_title": "",
+    "via": "packed by repo on Mon, 22 Jul 2024 01:02:29 GMT",
+    "hashes": [
+        [
+            "modslotgenerator\/Ultra Clutch.json",
+            "306efdd751875c00"
+        ]
+    ]
+}

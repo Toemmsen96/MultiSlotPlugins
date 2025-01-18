@@ -1,0 +1,39 @@
+{
+    "attachments": [
+        {
+            "data_filename": "1143701.png",
+            "original_filename": "upload_2024-6-19_22-26-17.png",
+            "thumb_filename": "thumbs\/1143701.jpg"
+        }
+    ],
+    "resource_id": 31266,
+    "current_version_id": 55565,
+    "download_count": 0,
+    "resource_version_id": 55565,
+    "version_string": "1.0",
+    "last_update": 1718828850,
+    "rating_avg": 0,
+    "rating_count": 0,
+    "rating_sum": 0,
+    "resource_category_id": 7,
+    "resource_date": 1718828850,
+    "review_count": 0,
+    "tag_line": "add Boost By Gear to every vehicle!",
+    "update_count": 0,
+    "path": "MJKUYX9CB\/55565\/",
+    "filename": "BoostByGearGMGPlugin.zip",
+    "title": "[MultiSlot Plugin] Boost By Gear for every vehicle",
+    "user_id": 215596,
+    "username": "TommoT",
+    "tagid": "MJKUYX9CB",
+    "message": "[B]This is a plugin for the MultiSlot \/  General Modslot Generator, download this first for this to work:[\/B]\n[URL]https:\/\/www.beamng.com\/resources\/general-modslot-generator-multimod.31265\/[\/URL]\nWhen selected in the MultiSlot Base, this plugin adds Boost By Gear functionality to every vehicle ingame. You can customize each gears wastegate pressure in the Tuning tab:\n[ATTACH]1143701[\/ATTACH]\n\nYou do need to have a Turbo on the vehicle for that!",
+    "category_title": "",
+    "prefix_title": "",
+    "via": "packed by repo on Thu, 20 Jun 2024 01:01:18 GMT",
+    "hashes": [
+        [
+            "modslotgenerator\/Boost By Gear.json",
+            "40717705e3ce0135"
+        ]
+    ]
+}

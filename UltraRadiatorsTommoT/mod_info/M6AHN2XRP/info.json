@@ -1,0 +1,39 @@
+{
+    "attachments": [
+        {
+            "data_filename": "1151817.png",
+            "original_filename": "upload_2024-7-21_22-27-39.png",
+            "thumb_filename": "thumbs\/1151817.jpg"
+        }
+    ],
+    "resource_id": 31600,
+    "current_version_id": 56212,
+    "download_count": 0,
+    "resource_version_id": 56212,
+    "version_string": "1.0",
+    "last_update": 1721593718,
+    "rating_avg": 0,
+    "rating_count": 0,
+    "rating_sum": 0,
+    "resource_category_id": 7,
+    "resource_date": 1721593718,
+    "review_count": 0,
+    "tag_line": "adds Ultra Radiators to every Vehicle ingame so they dont overheat",
+    "update_count": 0,
+    "path": "M6AHN2XRP\/56212\/",
+    "filename": "UltraRadiatorsTommoT.zip",
+    "title": "[MultiSlot Plugin] Ultra Radiators",
+    "user_id": 215596,
+    "username": "TommoT",
+    "tagid": "M6AHN2XRP",
+    "message": "[B]This is a plugin to the MultiSlot \/ General ModSlot Generator, download that first for this to work:[\/B]\n[URL]https:\/\/www.beamng.com\/resources\/general-modslot-generator-multimod.31265\/[\/URL]\n\n\nWhen selected in the MultiSlot Base, makes engines not overheat.\n[ATTACH]1151817[\/ATTACH]",
+    "category_title": "",
+    "prefix_title": "",
+    "via": "packed by repo on Mon, 22 Jul 2024 01:02:29 GMT",
+    "hashes": [
+        [
+            "modslotgenerator\/Ultra Radiators.json",
+            "aca26440a22b3dab"
+        ]
+    ]
+}

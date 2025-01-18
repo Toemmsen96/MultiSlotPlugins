@@ -1,0 +1,13 @@
+{
+    "information":{
+        "authors":"TommoT",
+        "name":"Indestructible"
+    },
+	"version": 1.0,
+	"slotType": "[MODSLOT]",
+    "mainEngine": {
+    "maxTorqueRating": -1,
+    "maxOverTorqueDamage": -1,
+    "$*maxRPM": 2
+}
+}

@@ -1,0 +1,44 @@
+{
+    "attachments": [
+        {
+            "data_filename": "1151822.png",
+            "original_filename": "upload_2024-7-21_22-37-14.png",
+            "thumb_filename": "thumbs\/1151822.jpg"
+        },
+        {
+            "data_filename": "1151823.png",
+            "original_filename": "upload_2024-7-21_22-37-42.png",
+            "thumb_filename": "thumbs\/1151823.jpg"
+        }
+    ],
+    "resource_id": 31602,
+    "current_version_id": 56214,
+    "download_count": 0,
+    "resource_version_id": 56214,
+    "version_string": "1.0",
+    "last_update": 1721594285,
+    "rating_avg": 0,
+    "rating_count": 0,
+    "rating_sum": 0,
+    "resource_category_id": 7,
+    "resource_date": 1721594285,
+    "review_count": 0,
+    "tag_line": "adds the ability to adjust the current equipped engines powercurve to every vehicle",
+    "update_count": 0,
+    "path": "MTW2R5UHO\/56214\/",
+    "filename": "AdjustablePowercurveTommoT.zip",
+    "title": "[MultiSlot Plugin] Adjustable Powercurve",
+    "user_id": 215596,
+    "username": "TommoT",
+    "tagid": "MTW2R5UHO",
+    "message": "[B]This is a plugin to the MultiSlot \/ General ModSlot Generator, download that first for this to work:[\/B]\n[URL]https:\/\/www.beamng.com\/resources\/general-modslot-generator-multimod.31265\/[\/URL]\n\nWhen selected in the MultiSlot Base, makes engines powercurve and some other stuff adjustable in the tuning menu.\n[ATTACH]1151822[\/ATTACH]\n\n[ATTACH]1151823[\/ATTACH] \n\nRecommended mods to go with this:\n[LIST]\n[*][MultiSlot Plugin] Indestructible Engines for every vehicle:\n[LIST]\n[*][URL]https:\/\/www.beamng.com\/resources\/multislot-plugin-indestructible-engines-for-every-vehicle.31267\/[\/URL]\n[\/LIST]\n[*][MultiSlot Plugin] Ultra Clutches:\n\n[LIST]\n[*][URL]https:\/\/www.beamng.com\/resources\/multislot-plugin-ultra-clutches.31601\/[\/URL]\n[\/LIST]\n[*][MultiSlot Plugin] Ultra Radiators:\n\n[LIST]\n[*][URL]https:\/\/www.beamng.com\/resources\/multislot-plugin-ultra-radiators.31600\/[\/URL]\n[\/LIST]\n[\/LIST]",
+    "category_title": "",
+    "prefix_title": "",
+    "via": "packed by repo on Mon, 22 Jul 2024 01:02:29 GMT",
+    "hashes": [
+        [
+            "modslotgenerator\/Adjustable Powercurve.json",
+            "fc5ed88288e1f4b2"
+        ]
+    ]
+}

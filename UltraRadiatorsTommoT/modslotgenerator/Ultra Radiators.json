@@ -1,0 +1,15 @@
+{
+    "information":{
+        "authors":"TommoT",
+        "name":"Ultra Radiators"
+    },
+	"version": 1.0,
+	"slotType": "[MODSLOT]",
+    "mainEngine": {
+        "engineBlockAirCoolingEfficiency":1200,
+        "oilVolume":40,
+        "engineBlockAirflowCoef":125,
+        "radiatorEffectiveness":15000000,
+        "oilRadiatorEffectiveness":15000000
+}
+}
