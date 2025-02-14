@@ -1,0 +1,28 @@
+{
+    "information":{
+        "authors":"TommoT",
+        "name":"Boost By Gear Single WG Start"
+    },
+	"version": 1.0,
+	"slotType": "[MODSLOT]",
+    "variables":[
+        ["name", "type","unit","category","default", "min", "max", "title", "description"],
+        ["$bbg01","range","psi","Boost By Gear",15,0,250,"BBG 1","Max Boost gear 1", {"stepDis":0.5}],
+        ["$bbg02","range","psi","Boost By Gear",15,0,250,"BBG 2","Max Boost gear 2", {"stepDis":0.5}],
+        ["$bbg03","range","psi","Boost By Gear",15,0,250,"BBG 3","Max Boost gear 3", {"stepDis":0.5}],
+        ["$bbg04","range","psi","Boost By Gear",15,0,250,"BBG 4","Max Boost gear 4", {"stepDis":0.5}],
+        ["$bbg05","range","psi","Boost By Gear",15,0,250,"BBG 5","Max Boost gear 5", {"stepDis":0.5}],
+        ["$bbg06","range","psi","Boost By Gear",15,0,250,"BBG 6","Max Boost gear 6", {"stepDis":0.5}],
+        ["$bbg07","range","psi","Boost By Gear",15,0,250,"BBG 7","Max Boost gear 7", {"stepDis":0.5}],
+        ["$bbg08","range","psi","Boost By Gear",15,0,250,"BBG 8","Max Boost gear 8", {"stepDis":0.5}],
+        ["$bbg09","range","psi","Boost By Gear",15,0,250,"BBG 9","Max Boost gear 9", {"stepDis":0.5}],
+        ["$bbg10","range","psi","Boost By Gear",15,0,250,"BBG 10","Max Boost gear 10", {"stepDis":0.5}],
+        ["$bbg11","range","psi","Boost By Gear",15,0,250,"BBG 11","Max Boost gear 11", {"stepDis":0.5}],
+        ["$bbg12","range","psi","Boost By Gear",15,0,250,"BBG 12","Max Boost gear 12", {"stepDis":0.5}]
+
+    ],
+    "turbocharger":{
+        "wastegateStart":"$bbg01",
+        "wastegateLimit":["$bbg01","$bbg02","$bbg03","$bbg04","$bbg05","$bbg06","$bbg07","$bbg08","$bbg09","$bbg10", "$bbg11", "$bbg12"]
+    }
+}
