@@ -22,6 +22,7 @@
 
     ],
     "turbocharger":{
+        "wastegateStart":"$bbg01",
         "wastegateLimit":["$bbg01","$bbg02","$bbg03","$bbg04","$bbg05","$bbg06","$bbg07","$bbg08","$bbg09","$bbg10", "$bbg11", "$bbg12"]
     }
 }

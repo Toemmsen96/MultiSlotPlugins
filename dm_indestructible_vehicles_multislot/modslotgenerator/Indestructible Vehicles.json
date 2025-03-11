@@ -1,0 +1,28 @@
+{
+	"information": {
+		"name": "Indestructible Vehicle",
+		"author": "Dummiesman"
+	},
+	"version": 1.11,
+	"slotType": "[MODSLOT]",
+	
+	"variables": [
+		["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+		["$indes_deformToggle", "range", " ", "Indestructible", 0, 0, 1,        "Deformation Toggle",    "Turns deformation on or off. A value of 1 means the vehicle can deform.", {"minDis":0, "maxDis": 1, "stepDis":1}],
+		["$indes_strengthToggle", "range", " ", "Indestructible", 0, 0, 1,      "Break Toggle",          "Turns breaking on or off. A value of 1 means parts can break, and  break off.", {"minDis":0, "maxDis": 1, "stepDis":1}],
+		["$indes_engineToggle", "range", " ", "Indestructible", 0, 0, 1,        "Engine Damage Toggle",  "Turns engine breaking on or off. A value of 1 means the engine can over rev, over torque, and overheat.", {"minDis":0, "maxDis": 1, "stepDis":1}],
+		["$indes_fireToggle", "range", " ", "Indestructible", 0, 0, 1,          "Fire Toggle",           "Turns fire on or off. A value of 1 means the vehicle can be set on fire.", {"minDis":0, "maxDis": 1, "stepDis":1}],
+		["$indes_floodToggle", "range", " ", "Indestructible", 0, 0, 1,         "Engine Flood Toggle",   "Turns engine flooding on or off. A value of 1 means the engine can be flooded.", {"minDis":0, "maxDis": 1, "stepDis":1}],
+		["$indes_brakeThermalsToggle", "range", " ", "Indestructible", 0, 0, 1, "Brake Thermals Toggle", "Turns brake thermals on or off. A value of 1 means brakes will have thermals simulation.", {"minDis":0, "maxDis": 1, "stepDis":1}],
+		["$indes_gearDamageToggle", "range", " ", "Indestructible", 0, 0, 1,    "Gear Damage Toggle",    "Turns manual transmission gear damage on or off. A value of 1 means gear grinding can occur and damage the transmission.", {"minDis":0, "maxDis": 1, "stepDis":1}]
+
+	],
+	
+    "controller": [
+        ["fileName"],
+        ["dm_indestructible", {"enableGearDamage":"$=$indes_gearDamageToggle","enableBrakeThermals":"$=$indes_brakeThermalsToggle","enableFire":"$=$indes_fireToggle", "enableEngineFlood":"$=$indes_floodToggle", "enableEngineBreak":"$=$indes_engineToggle"}]
+    ],
+	
+	"scalebeamDeform": "$=case($indes_deformToggle < 0.5, huge, 1)",
+	"scalebeamStrength": "$=case($indes_strengthToggle < 0.5, huge, 1)"
+}

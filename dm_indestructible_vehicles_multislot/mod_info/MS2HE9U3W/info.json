@@ -1,0 +1,49 @@
+{
+    "attachments": [],
+    "resource_id": 14818,
+    "current_version_id": 26599,
+    "download_count": 0,
+    "resource_version_id": 26676,
+    "version_string": "1.1",
+    "last_update": 1603132850,
+    "rating_avg": 5,
+    "rating_count": 0,
+    "rating_sum": 0,
+    "resource_category_id": 7,
+    "resource_date": 1603132850,
+    "review_count": 21,
+    "tag_line": "Makes vehicles practically indestructible, with a few cavaeats.",
+    "update_count": 0,
+    "path": "MS2HE9U3W\/26599\/",
+    "filename": "dm_indestructible_vehicles.zip",
+    "title": "\"Indestructible\" Vehicles",
+    "user_id": 140817,
+    "username": "Dummiesman",
+    "tagid": "MS2HE9U3W",
+    "message": "[CENTER][B]Indestructible Vehicles[\/B]\nThis is an add-on part for the vanilla game vehicles.[\/CENTER]\n\n[B]How To Use[\/B]\n- Spawn your [I]default game vehicle [\/I]of choice\n- Go to the parts menu (Default key activation is CTRL+W)\n- Select \"Indestructible\" under \"Additional Modification\"\n- Click apply if you automatic part changes is turned off\n\n[B]Notes[\/B]\n- This will [B]not[\/B] prevent part inversion. It's still possible to crash with enough force that parts will go inside out (ex. part of a bumper may be inside out after a hard crash)\n\n- This does not make things [I]impossible[\/I] to break. It's still possible to break sensitive parts. Some vehicles may especially be prone to this.\n\n- This does not change vehicle rigidity. If you go into slow motion, the vehicle will be incredibly wobbly as more force is now distributed throughout the entire vehicle\n\n- This does not prevent instabilities. In fact, it makes them happen even more for a similar reason as the above point.\n\n- Vehicles will become incredibly bouncy for a similar reason as the above points\n\n- This does not change node\/beam counts. There is no performance gain using this, despite the \"degraded experience\"\n[B][\/B]",
+    "category_title": "",
+    "prefix_title": "",
+    "via": "packed by repo on Fri, 23 Oct 2020 02:00:21 GMT",
+    "hashes": [
+        [
+            "scripts\/indestructibleGenerator\/modScript.lua",
+            "5bd020f5d77fa4fa"
+        ],
+        [
+            "lua\/vehicle\/powertrain\/dm_dummyEngineThermals.lua",
+            "d8d2dffde508b100"
+        ],
+        [
+            "lua\/vehicle\/controller\/dm_indestructible.lua",
+            "cb7f13a31e7824b4"
+        ],
+        [
+            "lua\/ge\/extensions\/dummiesman\/indestructibleGenerator.lua",
+            "1e968ba1155bdf66"
+        ],
+        [
+            "lua\/ge\/extensions\/dummiesman\/indestructibleGeneratorTemplates\/template.json",
+            "e7363a978f8081ff"
+        ]
+    ]
+}
