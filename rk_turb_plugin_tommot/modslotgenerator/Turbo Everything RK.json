@@ -1,0 +1,15 @@
+{
+    "information":{
+        "authors":"R4NKING",
+        "name":"Turbo Everything (RK)"
+    },
+	"version": 1.0,
+	"slotType": "[MODSLOT]",
+    "slots": [
+        ["type", "default", "description"],
+        ["turbo_everything_RK"," ", "Turbo"],
+		["long_block_RK"," ", "Indestructible Engine"],
+		["cooler_RK"," ", "Additional Cooler"],
+		["ECU_RK"," ", "ECU"]
+    ]
+}

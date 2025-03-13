@@ -1,0 +1,15 @@
+{
+    "information":{
+        "authors":"R4NKING",
+        "name":"Twincharge Everything (RK)"
+    },
+    "version": 1.0,
+    "slotType" : "[MODSLOT]",
+    "slots": [
+        ["type", "default", "description"],
+        ["twincharge_kit_RK"," ", "Twincharge Kit"],
+		["long_block_RK"," ", "Indestructible Engine"],
+		["cooler_RK"," ", "Additional Cooler"],
+		["ECU_RK"," ", "ECU"]
+    ]
+}
