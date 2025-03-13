@@ -1,0 +1,23 @@
+{
+"AgentY_customizable_stuff": {
+    "information": {
+        "name": "AgentY Car Values Scale Mod",
+        "authors": "AgentY (Learned some of it by looking at Dummiesman's mod so credit to him too)"
+    },
+    "slotType": "[MODSLOT]",
+    "slots": [
+        ["type", "default", "description"],
+        ["AgentY_randomseed","","Random Seed"],
+        ["AgentY_car_values_scale_main","AgentY_car_values_scale_main","Car Values Edit Type"],
+        ["AgentY_thrusters","","Thrusters"],
+        ["AgentY_fire_edit","","Fire Values Edit"],
+        ["AgentY_engine_alt_slot","","Alternative Engine (REMOVE CURRENT ENGINE & DIFFS TO USE!)"],
+        ["AgentY_electronics","","Electronics"],
+        ["AgentY_aero_tuning","","Aerodynamics Values Override"],
+        ["AgentY_lua","","Weird Vehicle Controls"],
+        ["AgentY_global_sounds_override","","Global Sounds Override"],
+        ["AgentY_tpms","","Tire Pressure Control (Radial Menu)"]
+    ]
+}
+}
+

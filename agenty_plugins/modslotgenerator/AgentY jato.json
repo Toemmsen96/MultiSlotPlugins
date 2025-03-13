@@ -1,0 +1,71 @@
+{
+"AgentY_jato_mainslot":{
+  "information":{
+        "authors":"AgentY",
+        "name":"AgentY Universal JATO / Ram Plow"
+    },
+    "version": 1.0,
+    "slotType" : ["MODSLOT"], //The mod uses this slot because it's the only way to make it universal for all cars without issues
+    "slots": [
+  ["type", "default", "description"],
+
+
+  //This slot includes the main slot for the side rockets.
+  //They are in a separate slot in order to reduce the already excessive amount of variables in the main slot.
+
+  ["AgentY_jato_doors","AgentY_jato_doors","Dual Side JATO Rockets"],
+
+
+  //This slot includes car strength settings from my other mod.
+  //It is purely to make the ram plow more usable.
+
+  ["AgentY_strength_setting","AgentY_strength_setting","Car Strength Settings"],
+
+
+  //This slot includes roof accessories, being the roof-mounted JATO rocket and a police light bar.
+  //The nodeOffset property includes offset settings for these accessories.
+  //The Y offset is controlled by a reversed variable defined in the section below.
+  //The case in the Z offset works as follows:
+  //If the $aroofrocketoffset_setup variable is found for a specific car, it will be used,
+  //Otherwise the game will use the $aroofaccoffset variable defined below.
+  //The $aroofrocketoffset_setup variable is stored for each vanilla car separately in their folders.
+  //It will not appear for mod cars, hence the other one was added. That one won't affect vanilla cars.
+
+  ["AgentY_roof_accessory","","Roof Accessory",{"nodeOffset":{"x":0, "y":"$=-$aroofaccoffsetf", "z":"$=case($aroofrocketoffset_setup == nil, $aroofaccoffset, $aroofrocketoffset_setup)"}}],
+
+
+  //This slot is for the ram plow.
+  //The Y offset works the same way as the Z offset in the previous slot,
+  //Except the manual mod variable is reversed for more clarity.
+
+  ["AgentY_ram_plow","","Ram Plow",{"nodeOffset":{"x":0,"y":"$=case($aramplowoffset_setup == nil, -$aramplowoffset, $aramplowoffset_setup)","z":0}}],
+
+
+  //This slot stores the positioning setups for each vanilla car.
+  //It will not appear for mod cars, unless you make your own offset setup files for them.
+
+  ["AgentY_jato_offset_setup","AgentY_jato_offset_setup","Positioning Setup"],
+
+
+  ["AgentY_floatspheres","","Float On Water"],
+
+  ["agenty_jato_mod_dummyslot","","Universal Dummy Mod"],
+  ],
+  "variables": [
+  ["name", "type", "unit", "category", "default", "min", "max", "title", "description"]
+
+  //This variable controls the Z offset of the roof accessory for mod cars. Won't be effective if the automatic offset variable is present for that car, which is the case for all vanilla cars.
+  ["$aroofaccoffset", "range", "m", "AgentY Jato and Ram Plow Mod", 0,    -1,   1,  "Roof accessory offset (up)", "Move the roof accesory (JATO/lightbar) higher or lower",   {"stepDis":0.001,"subCategory":"MANUAL OFFSET SETUP - USE THIS FOR MOD CARS"}],
+
+  //This variable controls the Y offset of the roof accessory.
+  ["$aroofaccoffsetf","range", "m", "AgentY Jato and Ram Plow Mod", 0,    -0.5,   0.5,"Roof accessory offset (front)",  "Move the roof accesory (JATO/lightbar) forward or backward",   {"stepDis":0.001,"subCategory":"MANUAL OFFSET SETUP - USE THIS FOR MOD CARS"}],
+
+  //This variable controls the Y offset of the ram plow for mod cars. Won't be effective if the automatic offset variable is present for that car, which is the case for all vanilla cars.
+  ["$aramplowoffset", "range", "m", "AgentY Jato and Ram Plow Mod", 0,    -1,   1,  "Ram Plow Offset",      "Move the ram plow forward or backward",      {"stepDis":0.001,"subCategory":"MANUAL OFFSET SETUP - USE THIS FOR MOD CARS"}],
+
+  //This variable controlls the beamSpring (stiffness) of the attachment beams, it is supposed to fix the car exploding when you attach the accessories to it. Won't be effective if the automatic offset variable is present for that car, which is the case for all vanilla cars.
+  ["$ajatostiffness", "range", "x", "AgentY Jato and Ram Plow Mod", 1001000, 100000, 1001000, "Attach Stiffness (Explosion Fix)", "Reduce this variable if the car explodes",       {"stepDis":10000,"subCategory":"MANUAL OFFSET SETUP - USE THIS FOR MOD CARS"}],
+  ],
+},
+
+}
