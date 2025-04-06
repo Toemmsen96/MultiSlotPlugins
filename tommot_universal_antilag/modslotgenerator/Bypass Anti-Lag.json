@@ -1,0 +1,40 @@
+{
+    "information":{
+        "authors":"BeamNG",
+        "name":"Bypass Anti-Lag System",
+        "value":5000
+    },
+    "version": 1.0,
+    "slotType": "[MODSLOT]",
+
+    "controller": [
+        ["fileName"],
+        ["powertrainControl/antiLag", {"name":"antiLag"}]
+    ],
+    "variables": [
+        ["name", "type", "unit", "category", "default", "min", "max", "title", "description"],
+        ["$turboTargetRPM", "range", "rpm", "Anti-Lag Settings", 101000, 50000, 250000, "Target Turbo RPM", "Target RPM for the turbocharger during anti-lag", {"stepDis":1000}],
+        ["$minEngineRPM", "range", "rpm", "Anti-Lag Settings", 2000, 1000, 4000, "Min Engine RPM", "Minimum engine RPM for anti-lag to activate", {"stepDis":100}],
+        ["$maxThrottle", "range", "", "Anti-Lag Settings", 0.2, 0.05, 0.5, "Max Throttle Input", "Maximum throttle input for anti-lag to be active", {"stepDis":0.01}],
+        ["$minBrake", "range", "", "Anti-Lag Settings", 0.2, 0.1, 0.8, "Min Brake Input", "Minimum brake input for anti-lag to activate", {"stepDis":0.01}],
+        ["$maxAntilagPower", "range", "Nm", "Anti-Lag Settings", 450, 200, 2000, "Max Anti-Lag Power", "Maximum power produced during anti-lag", {"stepDis":10}],
+        ["$exhaustPowerAdd", "range", "Nm", "Anti-Lag Settings", 0, 0, 10000, "Exhaust Power Add", "Additional exhaust power for anti-lag", {"stepDis":10}]
+    ],
+    "components": {
+        "exhaustPowerAdd": {
+            "exhaustPowerAdd": "$exhaustPowerAdd"
+        }
+    },
+    
+    "turbocharger": {
+        "maxExhaustPower": "$=$components.exhaustPowerAdd.exhaustPowerAdd == nil and $maxExhaustPower or ($components.exhaustPowerAdd.exhaustPowerAdd*1.5)+$maxExhaustPower",
+        "maxAntilagPower": "$maxAntilagPower"
+    },
+    "antiLag": {
+        "turboTargetRPM": "$turboTargetRPM",
+        "minActiveEngineRPM": "$minEngineRPM",
+        "minActiveWheelSpeed": 1,
+        "maxActiveThrottleInput": "$maxThrottle",
+        "minActiveBrakeInput": "$minBrake"
+    }
+}
